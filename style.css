@@ -13,7 +13,12 @@ body {
     background-image: url(../images/img1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: #121212;
+    max-width: 100%;
+    position: absolute;
+    top: 22%;
+    background-size: auto 100vh;
+    background-position: center top;
 }
 
 #kyleBackground {
@@ -22,7 +27,7 @@ body {
 
 #kyleQuestion {
     position: relative;
-    width: 30%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 40%;
 }
@@ -33,15 +38,17 @@ form {
 
 input[type="text"] {
     font-family: 'Barlow', sans-serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
     border: 0;
+    padding: 5px;
+    width: 80%;
 }
 
 #submitButton {
     position: relative;
     margin: 0 auto;
     margin-top: 35px;
-    width: 362px;
+    width: 82%;
     display: flex;
     justify-content: center;
 }
@@ -58,4 +65,18 @@ button {
     background-color: transparent;
     margin: 0 auto;
     padding-bottom: 2px;
+}
+
+@media (min-width: 768px) {
+
+#kyleQuestion {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40%;
+}
+    
+body {
+  background-size: cover;
+}
+
 }
