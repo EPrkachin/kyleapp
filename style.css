@@ -11,7 +11,6 @@ p {
 
 body {
     background-image: url(../images/img1.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
     background-color: #121212;
     max-width: 100%;
@@ -19,21 +18,20 @@ body {
     top: 22%;
     background-size: auto 100vh;
     background-position: center top;
+    max-height: 100%;
 }
 
 #kyleBackground {
-    max-width: 100%;
+    width: 100vw;
 }
 
 #kyleQuestion {
-    position: relative;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 40%;
+  width: 80%;
+  margin: 27% auto;
+  text-align: center;
 }
 
 form {
-    text-align: center;
 }
 
 input[type="text"] {
@@ -42,6 +40,10 @@ input[type="text"] {
     border: 0;
     padding: 5px;
     width: 80%;
+}
+
+button {
+    cursor: pointer;
 }
 
 #submitButton {
@@ -70,9 +72,9 @@ button {
 @media (min-width: 768px) {
 
 #kyleQuestion {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 40%;
+  width: 40%;
+  margin: 27% auto;
+  text-align: center;
 }
     
 body {
