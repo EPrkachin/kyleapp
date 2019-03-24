@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,400i');
 
 p {
     color: #fff;
@@ -16,6 +16,7 @@ p {
     font-size: 2rem;
     text-align: center;
     letter-spacing: 2px;
+    font-style: italic;
 }
 
 body {
@@ -89,8 +90,9 @@ body {
     
 #kyleQuestion {
   width: 40%;
-  margin: 27% auto;
+  margin: 0 auto;
   text-align: center;
+  margin-top: 27%; 
 }
 
 }
