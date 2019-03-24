@@ -83,6 +83,24 @@ function kyleReplies(){
 				// Background change
 				document.body.style.backgroundImage = "url('images/meagain.jpg')";
 				break;
+                
+            case "you": 				
+				wordArray.splice(i, 1, "I");
+				// Background change
+				document.body.style.backgroundImage = "url('images/meagain.jpg')";
+				break;
+                
+             case "are": 				
+				wordArray.splice(i, 1, "am");
+				// Background change
+				document.body.style.backgroundImage = "url('images/meagain.jpg')";
+				break;
+                
+             case "Are": 				
+				wordArray.splice(i, 1, "am");
+				// Background change
+				document.body.style.backgroundImage = "url('images/meagain.jpg')";
+				break;
 
 			// otherwise the default will be...
 			default:
@@ -101,4 +119,3 @@ function kyleReplies(){
 	} // end bracket for else
 
 } // kyleReplies function end bracket
-
