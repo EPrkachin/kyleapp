@@ -1,3 +1,11 @@
+// Check if Tina has a question for Kyle
+	var newq = localStorage.getItem("question");
+
+$(window).ready(function(){
+		document.getElementById("userInput").value = newq;
+});
+
+
 // Parse user input
 function kyleReplies(){	
 
