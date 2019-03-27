@@ -1,8 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow:400,400i');
 
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700');
+
+h1 {
+  color: #E2E2E2;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 3.125rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+  }
+
+a {
+  color: #010103;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 3.125rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.tinaQuestions {
+  padding-bottom: 2.4375rem;
+}
+
+.toptinaQuestion {
+  padding-top: 2.4375rem;
+}
+
+.blackText {
+  color: #010103;
+  padding-top: 13vh;
+  padding-left: 16.6%;
+  padding-right: 16.6%;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.125rem;
+}
+
+.blackText, a {
+  text-decoration: none;
+}
+
+.tinaQuestions > a {
+  text-decoration: underline;
+}
+
+.whiteText {
+  color: #E2E2E2;
+  padding-top: 44%;
+  text-align: center;
+}
+
+.frontPageh1 {
+  padding-top: 19.2581280788177vh;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.125rem;
+}
+
 p {
     color: #fff;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
     text-align: center;
@@ -11,7 +73,7 @@ p {
 
 #demo {
     color: #fff;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
     text-align: center;
@@ -20,7 +82,7 @@ p {
 }
 
 body {
-    background-image: url(../images/img1.jpg);
+    /* background-image: url(../images/img1.jpg); */
     background-repeat: no-repeat;
     background-color: #121212;
     background-size: 100vh auto;
@@ -42,7 +104,7 @@ form {
 }
 
 input[type="text"] {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.6rem;
     border: 0;
     padding: 5px;
@@ -63,7 +125,7 @@ button {
 }
 
 button {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #fff;
@@ -76,23 +138,48 @@ button {
     padding-bottom: 2px;
 }
 
+.blackBackground {
+  height: 50vh;
+}
+
+.whiteBackground {
+  background-color: #E2E2E2;
+  height: 50vh;
+}
+
+.blackBox {
+  background-color: #010103;
+  min-height: 9.6875rem;
+}
+
+#topic {
+  padding-top: 1rem;
+  padding-left: 27.4666666666667%;
+  padding-right: 27.4666666666667%;
+  line-height: 1.2em;
+}
+
+.whiteBox {
+  background-color: #E2E2E2;
+  height: 41.0625rem;
+}
+
 @media (min-width: 768px) {
-    
+
 body {
   background-size: 100% auto;
 }
-    
+
 #kyleBackground {
-    width: 100%;   
+    width: 100%;
     margin-top: 38%;
 }
-    
-    
+
 #kyleQuestion {
   width: 40%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 27%; 
+  margin-top: 27%;
 }
 
 }
