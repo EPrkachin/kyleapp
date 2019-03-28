@@ -4,13 +4,18 @@
 
 h1 {
   color: #E2E2E2;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif !important;
   font-size: 3.125rem;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
   font-weight: 700;
   }
+
+h2 {
+  color: #E2E2E2;
+  font-family: 'Barlow Condensed', sans-serif;
+}
 
 a {
   color: #010103;
@@ -20,6 +25,12 @@ a {
   text-align: center;
   letter-spacing: 2px;
   font-weight: 700;
+}
+
+svg {
+  position: absolute;
+  left: 88.2666666666667%;
+  top: 2.2167487684729%;
 }
 
 .tinaQuestions {
@@ -82,25 +93,49 @@ p {
 }
 
 body {
-    /* background-image: url(../images/img1.jpg); */
-    background-repeat: no-repeat;
     background-color: #121212;
     background-size: 100vh auto;
     background-position: center top;
 }
 
 #kyleBackground {
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    height: 100vh;
     width: 100%;
-    margin-top: 66%;
+    background-position: center top;
 }
 
 #kyleQuestion {
-  width: 80%;
-  margin: 27% auto;
+  position: relative;
   text-align: center;
+  top: 51.8472906403941%;
+}
+
+#kyleQuestionForm {
+  margin-top: 8.8029556650246%;
+}
+
+#theQuestion {
+  color: #010103;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2.375rem;
+  padding-top: 3.6945812807882%;
+  line-height: 1.2;
+}
+
+#testQuestion {
+  color: #010103;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2.375rem;
+  padding-top: 3.6945812807882%;
+  line-height: 1.2;
 }
 
 form {
+  text-align: center;
 }
 
 input[type="text"] {
@@ -109,10 +144,6 @@ input[type="text"] {
     border: 0;
     padding: 5px;
     width: 80%;
-}
-
-button {
-    cursor: pointer;
 }
 
 #submitButton {
@@ -136,6 +167,7 @@ button {
     background-color: transparent;
     margin: 0 auto;
     padding-bottom: 2px;
+    cursor: pointer;
 }
 
 .blackBackground {
@@ -162,6 +194,68 @@ button {
 .whiteBox {
   background-color: #E2E2E2;
   height: 41.0625rem;
+}
+
+#tinaBackground {
+  background-image: url(../images/tina1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+#tinaBackgroundTwo {
+  background-image: url(../images/tina2.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+#tinaResponse {
+  margin-top: 96.1083743842365%;
+}
+
+.tinaButton {
+  background-color: #F8D8E7;
+  border: 2px solid #010103;
+  width: 52.5333333333333%;
+  margin-top: 4.3103448275862%;
+  text-align: center;
+  margin-left: 24%;
+  margin-right: auto;
+}
+
+#tinasResponse {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: none;
+  color: #F8D8E7;
+  font-size: 2.5rem;
+  padding-top: 51.4778325123153%;
+}
+
+#tinasresponsetest {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: none;
+  color: #F8D8E7;
+  font-size: 2.5rem;
+  padding-top: 51.4778325123153%;
+}
+
+#moreQuestions {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  color: #F8D8E7;
+  top: 65.3940886699507%;
+  text-align: center;
+}
+
+#tinaBackgroundTwo a {
+  text-decoration: underline;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  color: #E2E2E2;
+  font-size: 2.3rem;
+  margin-top: 5.4187192118227%;
+  display: inline-block;
 }
 
 @media (min-width: 768px) {
