@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>The Kyle App</title>
+  </head>
+  <body>
+    <div id="kyleBackground">
+
+      <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16.766" height="20.52" viewBox="0 0 16.766 20.52">
+        <path id="Path_4" data-name="Path 4" d="M30.649,14.045l-7.928-7.9a.451.451,0,0,0-.653,0l-7.928,7.9a.46.46,0,0,0-.14.326V26.054a.468.468,0,0,0,.466.466H19.76a.468.468,0,0,0,.466-.466V19.2H24.54v6.856a.468.468,0,0,0,.466.466H30.3a.468.468,0,0,0,.466-.466V14.371A.557.557,0,0,0,30.649,14.045Z" transform="translate(-14 -6)"/>
+      </svg></a>
+
+
+     <div id="kyleQuestion">
+         <h1>Ask Kyle a question</h1>
+          <form id="kyleQuestionForm" method="post">
+          <input id="userInput" type="text" value="" placeholder="Does god exist?">
+      </form>
+         <div id="submitButton"><button type="button"  onclick="kyleReplies()">Ask Him</button></div>
+      </div>
+
+    <div id="kyleResponse">
+        <p id="demo"></p>
+    </div>
+
+    </div>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>

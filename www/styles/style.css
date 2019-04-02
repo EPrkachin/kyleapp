@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,400i');
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700');
+
+h1 {
+  color: #E2E2E2;
+  font-family: 'Barlow Condensed', sans-serif !important;
+  font-size: 3.125rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+  }
+
+h2 {
+  color: #E2E2E2;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+a {
+  color: #010103;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 3.125rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+svg {
+  position: absolute;
+  left: 88.2666666666667%;
+  top: 2.2167487684729%;
+}
+
+.tinaQuestions {
+  padding-bottom: 2.4375rem;
+}
+
+.toptinaQuestion {
+  padding-top: 2.4375rem;
+}
+
+.blackText {
+  color: #010103;
+  padding-top: 13vh;
+  padding-left: 16.6%;
+  padding-right: 16.6%;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.125rem;
+}
+
+.blackText, a {
+  text-decoration: none;
+}
+
+.tinaQuestions > a {
+  text-decoration: underline;
+}
+
+.whiteText {
+  color: #E2E2E2;
+  padding-top: 44%;
+  text-align: center;
+}
+
+.frontPageh1 {
+  padding-top: 19.2581280788177vh;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.125rem;
+}
+
+p {
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#demo {
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+body {
+    background-color: #121212;
+    background-size: 100vh auto;
+    background-position: center top;
+}
+
+#kyleBackground {
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center top;
+}
+
+#kyleQuestion {
+  position: relative;
+  text-align: center;
+  top: 51.8472906403941%;
+}
+
+#kyleQuestionForm {
+  margin-top: 8.8029556650246%;
+}
+
+#theQuestion {
+  color: #010103;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2.375rem;
+  padding-top: 3.6945812807882%;
+  line-height: 1.2;
+}
+
+#testQuestion {
+  color: #010103;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2.375rem;
+  padding-top: 3.6945812807882%;
+  line-height: 1.2;
+}
+
+form {
+  text-align: center;
+}
+
+input[type="text"] {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.6rem;
+    border: 0;
+    padding: 5px;
+    width: 80%;
+}
+
+#submitButton {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 82%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin: 0 auto;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.blackBackground {
+  height: 50vh;
+}
+
+.whiteBackground {
+  background-color: #E2E2E2;
+  height: 50vh;
+}
+
+.blackBox {
+  background-color: #010103;
+  min-height: 9.6875rem;
+}
+
+#topic {
+  padding-top: 1rem;
+  padding-left: 27.4666666666667%;
+  padding-right: 27.4666666666667%;
+  line-height: 1.2em;
+}
+
+.whiteBox {
+  background-color: #E2E2E2;
+  height: 41.0625rem;
+}
+
+#tinaBackground {
+  background-image: url(../images/tina1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+#tinaBackgroundTwo {
+  background-image: url(../images/tina2.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+#tinaResponse {
+  margin-top: 96.1083743842365%;
+}
+
+.tinaButton {
+  background-color: #F8D8E7;
+  border: 2px solid #010103;
+  width: 52.5333333333333%;
+  margin-top: 4.3103448275862%;
+  text-align: center;
+  margin-left: 24%;
+  margin-right: auto;
+}
+
+#tinasResponse {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: none;
+  color: #F8D8E7;
+  font-size: 2.5rem;
+  padding-top: 51.4778325123153%;
+}
+
+#tinasresponsetest {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: none;
+  color: #F8D8E7;
+  font-size: 2.5rem;
+  padding-top: 51.4778325123153%;
+}
+
+#moreQuestions {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  color: #F8D8E7;
+  top: 65.3940886699507%;
+  text-align: center;
+}
+
+#tinaBackgroundTwo a {
+  text-decoration: underline;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  color: #E2E2E2;
+  font-size: 2.3rem;
+  margin-top: 5.4187192118227%;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+
+body {
+  background-size: 100% auto;
+}
+
+#kyleBackground {
+    width: 100%;
+    margin-top: 38%;
+}
+
+#kyleQuestion {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 27%;
+}
+
+}
