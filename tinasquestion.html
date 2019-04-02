@@ -2,27 +2,37 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Here is Tina's question</title>
 
-    
+
 
 
   </head>
   <body>
 
-  	<h1>Tina asks...</h1>
+    <div id="tinaBackground">
 
-    <p id="theQuestion"></p>
+    <h1 id="theQuestion"></h1>
 
-    <h2>Your response</h2>
-
-    <form method="post">
-          <input id="userInput" type="text" value="" placeholder="I'm so glad you asked! Here's what I think...">
+    <div id="yourAnswer">
+      <form id="tinaResponse" method="post">
+          <input id="userInput" type="text" value="" placeholder="Your answer here">
     </form>
 
-    <a href="tinasresponse.html">Respond</a>
-  	
+    <button class="tinaButton"><a href="tinasresponse.html">Respond</a></button>
+    </div>
+
+  </div>
+
     <script type="text/javascript" src="js/tinasquestion.js"></script>
-  
+
   </body>
 </html>
+<!-- Collapse -->
+
+
+
+<!-- Message Input -->
