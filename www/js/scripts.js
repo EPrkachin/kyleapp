@@ -1,6 +1,7 @@
 // Check if Tina has a question for Kyle
 	var newq = localStorage.getItem("question");
-
+	
+// If Tina has a question for Kyle, then replace the question text field value with her question
 $(window).ready(function(){
 		document.getElementById("userInput").value = newq;
 });

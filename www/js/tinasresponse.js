@@ -12,10 +12,13 @@
 
 function tinaReplies(){
 
+	// Generate a random number based on the length of Tina's response array
 	var response = Math.floor(Math.random() * tinasResponse.length);
 
+	// The response from Tina will be based on the randomly generated number
 	var response2 = tinasResponse[response];
 
+	// Display the response
 	document.getElementById("tinasResponse").innerHTML = response2;
 
 }
